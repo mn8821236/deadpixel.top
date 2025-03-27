@@ -1,21 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- 英文版 (首页) -->
   <url>
     <loc>https://deadpixel.top/</loc>
-    <lastmod>2025-03-28</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2024-07-06</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deadpixel.top/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deadpixel.top/zh.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deadpixel.top/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deadpixel.top/fr.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deadpixel.top/de.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deadpixel.top/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deadpixel.top/ko.html"/>
   </url>
+  
+  <!-- 中文版 -->
   <url>
-    <loc>https://deadpixel.top/privacy.html</loc>
-    <lastmod>2025-03-28</lastmod>
+    <loc>https://deadpixel.top/zh.html</loc>
+    <lastmod>2024-07-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deadpixel.top/zh.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deadpixel.top/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deadpixel.top/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deadpixel.top/fr.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deadpixel.top/de.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deadpixel.top/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deadpixel.top/ko.html"/>
   </url>
+  
+  <!-- 西班牙语版 -->
   <url>
-    <loc>https://deadpixel.top/terms.html</loc>
-    <lastmod>2025-03-28</lastmod>
+    <loc>https://deadpixel.top/es.html</loc>
+    <lastmod>2024-07-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deadpixel.top/es.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deadpixel.top/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deadpixel.top/zh.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deadpixel.top/fr.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deadpixel.top/de.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deadpixel.top/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deadpixel.top/ko.html"/>
   </url>
+  
+  <!-- 法语版 -->
+  <url>
+    <loc>https://deadpixel.top/fr.html</loc>
+    <lastmod>2024-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deadpixel.top/fr.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deadpixel.top/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deadpixel.top/zh.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deadpixel.top/es.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deadpixel.top/de.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deadpixel.top/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deadpixel.top/ko.html"/>
+  </url>
+  
+  <!-- 德语版 -->
+  <url>
+    <loc>https://deadpixel.top/de.html</loc>
+    <lastmod>2024-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deadpixel.top/de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deadpixel.top/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deadpixel.top/zh.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deadpixel.top/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deadpixel.top/fr.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deadpixel.top/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deadpixel.top/ko.html"/>
+  </url>
+  
+  <!-- 日语版 -->
+  <url>
+    <loc>https://deadpixel.top/ja.html</loc>
+    <lastmod>2024-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deadpixel.top/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deadpixel.top/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deadpixel.top/zh.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deadpixel.top/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deadpixel.top/fr.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deadpixel.top/de.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deadpixel.top/ko.html"/>
+  </url>
+  
+  <!-- 韩语版 -->
+  <url>
+    <loc>https://deadpixel.top/ko.html</loc>
+    <lastmod>2024-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deadpixel.top/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deadpixel.top/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deadpixel.top/zh.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deadpixel.top/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deadpixel.top/fr.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deadpixel.top/de.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deadpixel.top/ja.html"/>
+  </url>
+  
 </urlset> 
