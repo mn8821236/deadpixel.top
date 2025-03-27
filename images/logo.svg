@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- 背景 -->
+  <rect width="512" height="512" rx="64" fill="#1a1a1a"/>
+  
+  <!-- 显示器外框 -->
+  <rect x="96" y="96" width="320" height="240" rx="16" fill="#3498db" />
+  
+  <!-- 显示器屏幕 -->
+  <rect x="112" y="112" width="288" height="192" fill="#2c2c2c" />
+  
+  <!-- 显示器支架 -->
+  <rect x="216" y="336" width="80" height="32" fill="#3498db" />
+  <rect x="192" y="368" width="128" height="16" rx="8" fill="#3498db" />
+  
+  <!-- 死像素的表示 -->
+  <rect x="256" y="176" width="16" height="16" fill="#ff3333" />
+  <rect x="176" y="144" width="16" height="16" fill="#ffffff" />
+  <rect x="320" y="208" width="16" height="16" fill="#33cc33" />
+  
+  <!-- 放大镜 -->
+  <circle cx="320" cy="320" r="48" fill="none" stroke="#3498db" stroke-width="16" />
+  <line x1="352" y1="352" x2="384" y2="384" stroke="#3498db" stroke-width="16" stroke-linecap="round" />
+</svg> 

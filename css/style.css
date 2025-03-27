@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2c2c2c;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
+    --accent-color: #3498db;
+    --accent-hover: #2980b9;
+    --border-color: #404040;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+}
+
+header {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.logo-svg {
+    margin-right: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.steps {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.steps h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.step {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.step h3 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.step p {
+    color: var(--text-secondary);
+}
+
+.step-icon {
+    flex-shrink: 0;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--text-primary);
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+}
+
+.btn:hover {
+    background-color: var(--accent-hover);
+    transform: translateY(-2px);
+}
+
+.info-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.info-section h2 {
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+.info-section p {
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+}
+
+.info-section img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.faq h3 {
+    color: var(--text-primary);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.faq p {
+    color: var(--text-secondary);
+}
+
+footer {
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-top: 1px solid var(--border-color);
+}
+
+footer a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--accent-hover);
+}
+
+#test-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.controls {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: var(--text-primary);
+    display: none;
+    z-index: 1001;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--border-color);
+}
+
+.breadcrumb {
+    background-color: var(--bg-secondary);
+    padding: 0.5rem 1rem;
+    margin: 0;
+    list-style: none;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.breadcrumb li {
+    display: inline;
+    color: var(--text-secondary);
+}
+
+.breadcrumb li + li:before {
+    content: ">";
+    padding: 0 8px;
+    color: var(--text-secondary);
+}
+
+.breadcrumb a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: var(--accent-hover);
+}
+
+mark {
+    background-color: var(--accent-color);
+    color: var(--text-primary);
+    padding: 0 4px;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    
+    nav ul {
+        margin-top: 1rem;
+    }
+    
+    nav ul li {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .step {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .image-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.hero-bg {
+    background: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.9));
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 5rem 1rem;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* 图片容器相关样式 */
+.image-container {
+    margin: 2rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-secondary);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-caption {
+    padding: 0.8rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    font-size: 0.9rem;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+}
+
+/* 图片网格 */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.image-item {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-secondary);
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 设备兼容性容器 */
+.devices-container {
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1.5rem 0;
+    border: 1px solid var(--border-color);
+}
+
+/* 添加退出按钮样式 */
+.exit-btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-left: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.exit-btn:hover, .exit-btn:active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* 优化移动端控制栏样式 */
+@media (max-width: 768px) {
+    .controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 15px;
+        width: 90%;
+    }
+    
+    .exit-btn {
+        margin-left: 0;
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+}
