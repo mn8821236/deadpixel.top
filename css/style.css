@@ -380,7 +380,6 @@ mark {
 /* 优化移动端控制栏样式 */
 @media (max-width: 768px) {
     .controls {
-        display: flex;
         flex-direction: column;
         align-items: center;
         gap: 10px;
